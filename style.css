@@ -82,11 +82,13 @@ html {
 
 .mobile-menu {
     display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 5%;
 }
 
 
 .menu{
-    text-align: right;
     color: white;
     border: solid 2px #2e2e2e;
     cursor: pointer;
@@ -101,8 +103,9 @@ html {
 
 
 .header {
-    justify-items: center;
-    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     top: 0;
 }
 
@@ -171,8 +174,9 @@ html {
     transition: 0.4s;
     color: #ffffff;
     border: solid 2px #000000;
-    height: 35px;
+    height: 60px;
     background-color: rgb(0, 0, 0);
+    animation: none;
 }
 
 @keyframes floating {
